@@ -38,9 +38,6 @@ def kapitan_reveal_json(req_uid, json_doc, retries=3):
                              "retry=\"%d of %d\", exception_type=%s, error=\"%s\"",
                              req_uid, retry + 1, retries, exc_type, exc_value)
                 continue
-            # logger.error("message=\"Kapitan reveal failed, retries exhausted\", "
-            #              "request_uid=%s, exception_type=%s, error=\"%s\"",
-            #              req_uid, exc_type, exc_value)
             raise
 
 

@@ -9,7 +9,7 @@
          "metadata":{
             "name": "name-here",
             "labels":{
-               "tesoro.kapicorp.com":"enabled"
+               "tesoro.kapicorp.com":"enablead"
             }
          },
          "spec":{
